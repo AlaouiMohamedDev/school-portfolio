@@ -7,7 +7,7 @@ function Home() {
                 <h6 className="lg:text-lg 2xl:text-2xl font-semibold">Bonjour, je suis</h6>
                 <h1 className="text-4xl 2xl:text-6xl font-black dark:text-white font-display">Alaoui Mohamed</h1>
                 
-                <p className='text-gray-900 text-sm lg:text-md dark:text-gray-400 text-justify leading-loose'>Particulièrement intéressé par l'entrepreneuriat et les affaires, je suis passionné par les nouvelles tendances en matière de technologie, de design et de développement Web. Au cours de mes années universitaires, je me suis concentré sur la construction d'une base de connaissances solide et étendue et sur le travail avec différents types de personnes sur une variété de projets.</p>
+                <p className='text-gray-900 text-sm lg:text-md 2xl:text-lg dark:text-gray-400 text-justify leading-loose'>Particulièrement intéressé par l'entrepreneuriat et les affaires, je suis passionné par les nouvelles tendances en matière de technologie, de design et de développement Web. Au cours de mes années universitaires, je me suis concentré sur la construction d'une base de connaissances solide et étendue et sur le travail avec différents types de personnes sur une variété de projets.</p>
             </div>
         <div className='grid grid-cols-2 2xl:h-max gap-y-5 text-sm'>
             <p><span className='text-main-1 font-bold'>Age : </span> 24 Years Old</p>

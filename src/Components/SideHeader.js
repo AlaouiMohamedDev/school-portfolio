@@ -145,37 +145,37 @@ function SideHeader() {
         <h1 className="text-2xl 2xl:text-3xl font-abril text-main-2">Alaoui Mohamed</h1>
         <ul className="w-full grid grid-cols-2 lg:grid-cols-1 py-2 2xl:py-5 text-main-2 text-md 2xl:text-lg font-display uppercase">
             <Link to='/' onClick={acceuil}>
-                <li className='acceuil active py-3 px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
+                <li className='acceuil active py-3 px-4 md:px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
                     <i className='bx bx-home-alt-2'></i>
                     <span>Acceuil</span>
                 </li>
             </Link>
             <Link to='/formation' onClick={formation}>
-                <li className='formation py-3 px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
+                <li className='formation py-3 px-4 md:px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
                     <i className='bx bx-library'></i>
                     <span>FORMATIONS</span>
                 </li>
             </Link>
             <Link to='/experience' onClick={experience}>
-                <li className='experience py-3 px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
+                <li className='experience py-3 px-4 md:px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
                     <i className='bx bx-hard-hat'></i>
                     <span>EXPERIENCES</span>
                 </li>
             </Link>
             <Link to='/competence' onClick={competence}>
-                <li className='competence py-3 px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
+                <li className='competence py-3 px-4 md:px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
                     <i className='bx bx-medal'></i>
                     <span>COMPETENCES</span>
                 </li>
             </Link>
             <Link to='/certificat' onClick={certificat}>
-                <li className='certificat py-3 px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
+                <li className='certificat py-3 px-4 md:px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
                     <i className='bx bx-certification' ></i>
                     <span>CERTIFICATS</span>
                 </li>
             </Link>
             <Link to='/projet' onClick={projet}>
-                <li className='projet py-3 px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
+                <li className='projet py-3 px-4 md:px-10 hover:bg-main-2 hover:text-main-1 duration-150 transition-all ease-out flex items-center space-x-2 cursor-pointer'>
                     <i className='bx bx-briefcase' ></i>
                     <span>PROJETS</span>
                 </li>
